@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Princess 💖</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pinyon+Script&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="img\photo5.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="petal-container"></div>
+
+    <section id="home" class="content-section active">
+        <div class="text-center animate__animated animate__fadeIn">
+            <h2 class="sparkle-text">Happy 19th Birthday</h2>
+            <h1 class="main-title" id="name">Baishali Das</h1> <div class="heart-pulse" onclick="spillLove()">💖</div>
+            <p class="mt-4 mt-pink">Tap the heart for a surprise!</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="content-section">
+        <div class="container">
+            <h2 class="fancy-header">Our Sweet Moments</h2>
+            <div class="row g-3">
+                <div class="col-6"><div class="pink-frame"><img src="img\photo1.jpg"></div></div>
+                <div class="col-6"><div class="pink-frame"><img src="img\photo2.jpg"></div></div>
+                <div class="col-12"><div class="pink-frame big-frame"><img src="img\photo3.jpg"></div></div>
+                <div class="col-6"><div class="pink-frame"><img src="img\photo4.jpg"></div></div>
+                <div class="col-6"><div class="pink-frame"><img src="img\photo5.jpg"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wish" class="content-section">
+        <div class="wish-container animate__animated animate__zoomIn">
+            <div class="ribbon">For the Queen</div>
+            <p class="wish-text">Happy Birthday! Hard to believe it’s already been three years since we met. Hope you have a great day and a solid year ahead!... Happy 19th! May your day be as bright and beautiful as your smile...</p>
+            <h3 class="signature">Forever, Aditya</h3>
+        </div>
+    </section>
+
+    <div class="floating-nav">
+        <button class="nav-btn" onclick="showSection('home')">🏠</button>
+        <button class="nav-btn main-btn" onclick="showSection('gallery')">📸</button>
+        <button class="nav-btn" onclick="showSection('wish')">💌</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
